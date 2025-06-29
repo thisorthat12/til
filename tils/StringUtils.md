@@ -1,0 +1,1 @@
+StringUtils from apache lang has a method getDigits which returns the digits of a string.
