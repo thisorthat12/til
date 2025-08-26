@@ -1,0 +1,1 @@
+In docker compose, when you have a spring boot app that uses liquibase, there's no need to create a separate liquibase container to run the scripts. Spring boot will pick it up.

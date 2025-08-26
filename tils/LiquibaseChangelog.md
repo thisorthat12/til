@@ -1,0 +1,3 @@
+The changelog table is used by liquibase to know what files have already been executed. So if you run a new script manually, then when you run the app it will try to run that script again. The table already exists so the run will fail. If there are conflicts, truncate changelog, drop all tables, views and sequences. Then run app.
+
+Better is of course when there is a liquibase change, to run the app first and don't do anything manually.
